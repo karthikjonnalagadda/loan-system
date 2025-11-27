@@ -1,0 +1,112 @@
+.myapps-page {
+  padding: 20px;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue";
+  background: #f5f7fb;
+  min-height: 100vh;
+  color: #111827;
+}
+
+/* Header */
+.header h1 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+/* Card */
+.card {
+  background: #fff;
+  padding: 14px;
+  border-radius: 10px;
+  margin-bottom: 14px;
+  box-shadow: 0 1px 4px rgba(16, 24, 40, 0.05);
+  border: 1px solid rgba(16, 24, 40, 0.04);
+}
+
+/* Search */
+.search {
+  width: 100%;
+  max-width: 380px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #e6e9ee;
+  font-size: 14px;
+}
+
+/* Table */
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.my-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 720px;
+}
+
+.my-table thead th {
+  text-align: left;
+  padding: 12px;
+  font-size: 13px;
+  border-bottom: 1px solid #e5e7eb;
+  color: #374151;
+  background: #fafbfd;
+}
+
+.my-table tbody td {
+  padding: 12px;
+  font-size: 14px;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.my-table tbody tr:hover {
+  background: rgba(59, 130, 246, 0.04);
+}
+
+/* Applicant cell */
+.name {
+  font-weight: 600;
+}
+.sub {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+/* Muted */
+.muted {
+  color: #6b7280;
+}
+
+/* Badges */
+.badge {
+  padding: 5px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+}
+.badge-success {
+  background: #10b981;
+}
+.badge-danger {
+  background: #dc2626;
+}
+.badge-warning {
+  background: #f59e0b;
+  color: #111827;
+}
+.badge-muted {
+  background: #9ca3af;
+}
+.badge-default {
+  background: #6b7280;
+}
+
+/* Empty state */
+.empty-state {
+  padding: 40px;
+  text-align: center;
+  color: #6b7280;
+  font-size: 15px;
+}

@@ -1,0 +1,7 @@
+﻿/* Minimal styles placeholder to prevent build error. Replace with your styles later. */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f6f7f8;
+}

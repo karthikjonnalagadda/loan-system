@@ -1,0 +1,25 @@
+{
+  "numeric": {
+    "Age": 43.0,
+    "Income": 82466.0,
+    "LoanAmount": 127556.0,
+    "CreditScore": 574.0,
+    "MonthsEmployed": 60.0,
+    "NumCreditLines": 2.0,
+    "InterestRate": 13.46,
+    "LoanTerm": 36.0,
+    "DTIRatio": 0.5,
+    "loan_to_income": 0.0,
+    "has_cosigner_flag": 0.0
+  },
+  "categorical": {
+    "Education": "Bachelor's",
+    "EmploymentType": "Part-time",
+    "MaritalStatus": "Married",
+    "HasMortgage": "Yes",
+    "HasDependents": "Yes",
+    "LoanPurpose": "Business",
+    "HasCoSigner": "Yes",
+    "credit_bin": "missing"
+  }
+}

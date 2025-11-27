@@ -1,0 +1,173 @@
+/* Admin Dashboard styles - modern, clean, responsive */
+.adm-page {
+  padding: 20px;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: #f5f7fb;
+  color: #111827;
+  min-height: 100vh;
+}
+
+/* header */
+.adm-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.adm-header h1 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* small stats */
+.stats {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.stat {
+  background: #fff;
+  border-radius: 8px;
+  padding: 8px 12px;
+  box-shadow: 0 1px 2px rgba(16,24,40,0.04);
+  border: 1px solid rgba(16,24,40,0.04);
+  min-width: 84px;
+}
+.stat-title { font-size: 12px; color: #6b7280; }
+.stat-value { font-size: 16px; font-weight: 700; margin-top: 4px; }
+
+/* filters */
+.adm-filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+.filter-left { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.filter-right { display:flex; gap:8px; align-items:center; }
+
+/* inputs */
+.search {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #e6e9ee;
+  width: 320px;
+  outline: none;
+}
+.adm-filters select {
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #e6e9ee;
+}
+
+/* cards */
+.card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 12px;
+  box-shadow: 0 1px 4px rgba(16,24,40,0.04);
+  border: 1px solid rgba(16,24,40,0.03);
+}
+
+/* table */
+.table-wrap { overflow-x: auto; margin-bottom: 12px; }
+.adm-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 900px;
+}
+.adm-table thead th {
+  text-align: left;
+  padding: 12px;
+  font-size: 13px;
+  color: #374151;
+  border-bottom: 1px solid #eef2f7;
+}
+.adm-table tbody td {
+  padding: 12px;
+  vertical-align: middle;
+  font-size: 14px;
+  color: #111827;
+  border-bottom: 1px solid #f3f6fb;
+}
+.row-hover:hover { background: linear-gradient(90deg, rgba(37,99,235,0.03), transparent); }
+
+/* applicant column small meta */
+.applicant .name { font-weight: 700; margin-bottom: 4px; }
+.applicant .sub { font-size: 12px; color: #6b7280; }
+.applicant .id { color: #9ca3af; }
+
+/* badges */
+.badge {
+  display: inline-block;
+  padding: 6px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+}
+.badge-muted { background: #9ca3af; color: #fff; }
+.badge-danger { background: #dc2626; }
+.badge-warning { background: #f59e0b; color: #111827; }
+.badge-success { background: #10b981; }
+.badge-default { background: #6b7280; }
+
+/* buttons */
+.btn {
+  background: #fff;
+  border: 1px solid #e6e9ee;
+  padding: 8px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.btn.small { padding: 6px 8px; font-size: 13px; }
+.btn.success { background: #ecfdf5; border-color: rgba(16,185,129,0.14); color: #059669; }
+.btn.danger { background: #fff1f2; border-color: rgba(220,38,38,0.12); color: #dc2626; }
+
+/* actions cell */
+.actions { display: flex; gap: 8px; align-items: center; }
+
+/* empty state */
+.empty { text-align: center; color: #6b7280; padding: 24px; }
+
+/* pager */
+.pager {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:8px;
+  margin-top:8px;
+}
+.page-num { font-weight:600; margin: 0 8px; }
+
+/* modal */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(2,6,23,0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 60;
+}
+.modal {
+  width: min(980px, 96%);
+  max-height: 88vh;
+  overflow: auto;
+  padding: 16px;
+}
+.modal-head { display:flex; justify-content:space-between; align-items:center; gap:8px; margin-bottom:8px; }
+.detail-table { width:100%; border-collapse: collapse; }
+.detail-table td.k { width:28%; padding:10px; background:#f8fafc; font-weight:600; color:#374151; }
+.detail-table td.v { padding:10px; border-bottom:1px solid #eef2f7; color:#111827; }
+
+/* small responsive tweaks */
+@media (max-width: 900px) {
+  .search { width: 100%; }
+  .adm-table { min-width: 760px; }
+}

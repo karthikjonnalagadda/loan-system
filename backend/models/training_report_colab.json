@@ -1,0 +1,15 @@
+{
+  "best_cv_auc": 0.7486237447757985,
+  "holdout_acc": 0.8865870373996475,
+  "holdout_auc": 0.7564148178737388,
+  "holdout_recall": 0.077052773562637,
+  "best_params": {
+    "clf__colsample_bytree": 0.7123738038749523,
+    "clf__learning_rate": 0.14567402078956213,
+    "clf__max_depth": 3,
+    "clf__min_child_weight": 1,
+    "clf__n_estimators": 444,
+    "clf__subsample": 0.9947547746402069
+  },
+  "search_time_seconds": 990.1092824935913
+}
